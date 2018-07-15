@@ -1,2 +1,2 @@
 add_executable(hello hello.cxx)
-target_link_libraries(hello libb libc)
+target_link_libraries(hello PRIVATE libb libc libh)
